@@ -33,19 +33,28 @@
             />
     </LinearLayout>
 
-    <FrameLayout
-        android:id="@+id/container"
+    <!--<FrameLayout-->
+        <!--android:id="@+id/container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/input_layout">-->
+
+        <!--&lt;!&ndash;<fragment&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/fragment"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:name="edu.uw.fragmentdemo.MovieListFragment"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"/>&ndash;&gt;-->
+
+    <!--</FrameLayout>-->
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/input_layout">
 
-        <!--<fragment-->
-            <!--android:id="@+id/fragment"-->
-            <!--android:name="edu.uw.fragmentdemo.MovieListFragment"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"/>-->
-
-    </FrameLayout>
+    </android.support.v4.view.ViewPager>
 
     <!--<ListView-->
         <!--android:id="@+id/list_view"-->
